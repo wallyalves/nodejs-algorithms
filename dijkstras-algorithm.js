@@ -86,7 +86,7 @@ const runDijkstra = (sourceGraph) => {
 
 
   // prints cost for F node. Finish node.
-  console.log(`Running Dijkstra's algorithm, the cost of the F is: ${costs['f']}`);
+  console.log(`Running Dijkstra's algorithm, the weight to target F is: ${costs['f']}`);
 };
 
 runDijkstra(graph);
