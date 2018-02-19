@@ -20,4 +20,7 @@ const findValue = (list, value) => {
 
 const arrayToSearch = [1, 3, 5, 7];
 
-findValue(arrayToSearch, 5);
+// findValue(arrayToSearch, 5);
+
+
+module.exports = Object.freeze({binarySearch: findValue});

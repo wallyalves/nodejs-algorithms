@@ -23,4 +23,10 @@ const quicksort = (array) => {
 
 const arrayInput = [2, 67, 88, 109, 1, 5];
 
-console.log(quicksort(arrayInput));
+//console.log(quicksort(arrayInput));
+
+
+
+
+// exporting
+module.exports = Object.freeze({quicksort});
