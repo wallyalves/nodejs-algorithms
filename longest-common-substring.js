@@ -5,9 +5,6 @@
 * This current solution version, accounts only for strings of the same length.
 */
 
-const { quicksort } = require('./quicksort');
-const { binarySearch } = require('./binary-search');
-
 let answer = [
   [0,0],
   [0,0],
